@@ -10,7 +10,7 @@ symbolsList = symbolsListFull.split("\n")
 #i needs to be instialised
 i = 0
 
-#Loop through news symbolslist (-1 because of extra line at the end of txt file)
+#Loop through symbolslist (-1 because of extra line at the end of txt file)
 while i < len(symbolsList) - 1:
     #Changing url based on stock symbol
     url = "http://www.bloomberg.com/markets/chart/data/1D/" + symbolsList[i] + ":US"
